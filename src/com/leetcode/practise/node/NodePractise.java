@@ -18,8 +18,9 @@ public class NodePractise {
     }
 
     public static String listNodeToString(ListNode n){
-        if(n==null)
+        if(n==null) {
             return "";
+        }
         ListNode tmp = n;
         StringBuffer sb = new StringBuffer();
         while (tmp.next!=null){

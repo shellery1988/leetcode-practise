@@ -31,8 +31,9 @@ public class NodePractise {
     }
 
     public static ListNode listNodeRevert(ListNode n){
-        if(n==null)
+        if(n==null) {
             return null;
+        }
         ListNode k = null;
         ListNode tmp = null;
         while (n.next!= null){
